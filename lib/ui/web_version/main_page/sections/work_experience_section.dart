@@ -11,19 +11,15 @@ class WorkExperienceSection extends StatelessWidget {
       decoration: AppDecorations.sectionDecoration,
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: const [
-            HeaderText(text: 'Work Experience'),
-            SizedBox(height: 16.0),
-            Text(
-              "",
-              style: TextStyle(
-                fontSize: 20.0,
-                height: 1.5,
-              ),
-            )
-          ],
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const HeaderText(text: 'Work Experience'),
+              const SizedBox(height: 16.0),
+
+            ],
+          ),
         ),
       ),
     );

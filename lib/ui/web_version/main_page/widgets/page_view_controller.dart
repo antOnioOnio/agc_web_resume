@@ -33,9 +33,9 @@ class _MySectionViewState extends State<MySectionView> {
               });
             },
             children: const [
-              PresentationSection(),
-              SkillsSections(),
               WorkExperienceSection(),
+              SkillsSections(),
+              PresentationSection(),
               EducationSection(),
             ],
           ),

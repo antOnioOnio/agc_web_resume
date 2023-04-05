@@ -3,11 +3,12 @@ import 'package:flutter/material.dart';
 
 class HeaderText extends StatelessWidget {
   final String text;
+
   const HeaderText({Key? key, required this.text}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return         Row(
+    return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Stack(
@@ -22,7 +23,7 @@ class HeaderText extends StatelessWidget {
               width: 50,
               height: 5,
             ),
-             Padding(
+            Padding(
               padding: const EdgeInsets.only(top: 8.0),
               child: Text(
                 text,
