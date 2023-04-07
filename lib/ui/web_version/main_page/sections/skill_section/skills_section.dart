@@ -1,7 +1,6 @@
-import 'package:agc_web_resume/core/constants/colors.dart';
 import 'package:agc_web_resume/core/constants/decorations.dart';
 import 'package:agc_web_resume/ui/web_version/main_page/widgets/header_text.dart';
-import 'package:agc_web_resume/ui/web_version/main_page/widgets/skill_widget.dart';
+import 'package:agc_web_resume/ui/web_version/main_page/sections/skill_section/widgets/skill_widget.dart';
 import 'package:flutter/material.dart';
 
 class SkillsSections extends StatelessWidget {
@@ -27,7 +26,7 @@ class SkillsSections extends StatelessWidget {
                       children: const [
                         SkillWidget(
                           header: 'Programming Languages',
-                          setValues: ['Flutter & Dart', 'Java'],
+                          setValues: ['Dart - Flutter ', 'Java - Android'],
                         ),
                         SizedBox(height: 10),
                         SkillWidget(
@@ -57,7 +56,6 @@ class SkillsSections extends StatelessWidget {
                           setValues: [
                             'MVVM',
                             'Clean Architecture',
-                            'MVM',
                           ],
                         ),
                         SizedBox(height: 10),
@@ -80,11 +78,20 @@ class SkillsSections extends StatelessWidget {
                     child: Column(
                       children: const [
                         SkillWidget(
+                          header: 'Languages',
+                          setValues: [
+                            'Spanish - Native',
+                            'English - Fluently',
+                          ],
+                        ),
+                        SizedBox(height: 10),
+                        SkillWidget(
                           header: 'Others',
                           setValues: [
                             'Git & Gitflow Workflow',
                             'CodeMagic',
-                            'Firebase',
+                            'Team lead',
+                            'Continuous learning'
                           ],
                         ),
                       ],

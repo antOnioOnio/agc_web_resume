@@ -18,6 +18,7 @@ class PresentationSection extends StatelessWidget {
             SizedBox(height: 16.0),
             Text(
               "I am a mobile app developer with 4 years of experience, specializing in Flutter development. I began my career developing Android apps for a year before discovering Flutter, which I fell in love with due to its flexibility and ease of use, leading me to focus on it ever since. \n\nIn addition to my experience in mobile app development and strong emphasis on good architecture in all of my projects, I have also led small teams. As a team leader, I effectively manage project timelines and ensure that all team members are aware of their responsibilities and expectations. I encourage communication and collaboration among team members, while providing guidance and support as needed.\n\nFurthermore, I have advanced language skills in English, having lived in London for two years a decade ago. This has allowed me to collaborate effectively with English-speaking teams and work on international projects.",
+              textAlign: TextAlign.justify,
               style: TextStyle(
                 fontSize: 20.0,
                 height: 1.5,

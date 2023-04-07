@@ -37,6 +37,7 @@ class MainHeaderProfileInfo extends StatelessWidget {
               padding: EdgeInsets.only(top: 8.0),
               child: Text(
                 'SENIOR FLUTTER SOFTWARE DEVELOPER IN ACCENTURE',
+                maxLines: 2,
                 style: TextStyle(
                   fontWeight: FontWeight.w500,
                   fontSize: 18,
