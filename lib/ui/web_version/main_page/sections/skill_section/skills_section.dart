@@ -1,6 +1,6 @@
 import 'package:agc_web_resume/core/constants/decorations.dart';
-import 'package:agc_web_resume/ui/web_version/main_page/widgets/header_text.dart';
 import 'package:agc_web_resume/ui/web_version/main_page/sections/skill_section/widgets/skill_widget.dart';
+import 'package:agc_web_resume/ui/web_version/main_page/widgets/header_text.dart';
 import 'package:flutter/material.dart';
 
 class SkillsSections extends StatelessWidget {

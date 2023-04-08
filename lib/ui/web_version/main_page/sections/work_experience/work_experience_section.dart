@@ -1,5 +1,4 @@
 import 'package:agc_web_resume/core/constants/assets.dart';
-import 'package:agc_web_resume/core/constants/colors.dart';
 import 'package:agc_web_resume/core/constants/decorations.dart';
 import 'package:agc_web_resume/ui/web_version/main_page/sections/work_experience/widgets/work_experience_period.dart';
 import 'package:agc_web_resume/ui/web_version/main_page/widgets/header_text.dart';

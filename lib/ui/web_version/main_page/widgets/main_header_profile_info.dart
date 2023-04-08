@@ -1,3 +1,4 @@
+import 'package:agc_web_resume/core/constants/assets.dart';
 import 'package:agc_web_resume/core/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -15,7 +16,7 @@ class MainHeaderProfileInfo extends StatelessWidget {
           decoration: const BoxDecoration(
             shape: BoxShape.circle,
             image: DecorationImage(
-              image: AssetImage('assets/images/profile_picture.jpeg'),
+              image: AssetImage(AppAssets.profilePicture),
               fit: BoxFit.cover,
             ),
           ),

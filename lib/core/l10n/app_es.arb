@@ -1,0 +1,34 @@
+{
+    "presentation_text" : "Presentación",
+    "presentation_description": "Soy un desarrollador de aplicaciones móviles con 4 años de experiencia, especializado en el desarrollo de Flutter. Comencé mi carrera desarrollando aplicaciones para Android durante un año antes de descubrir Flutter, de la que me enamoré debido a su flexibilidad y facilidad de uso, lo que me llevó a enfocarme en ella desde entonces. \n\nAdemás de mi experiencia en el desarrollo de aplicaciones móviles y un fuerte énfasis en una buena arquitectura en todos mis proyectos, también he liderado pequeños equipos. Como líder de equipo, administro eficazmente los plazos del proyecto y me aseguro de que todos los miembros del equipo sean conscientes de sus responsabilidades y expectativas. Fomento la comunicación y la colaboración entre los miembros del equipo, y brindo orientación y apoyo según sea necesario.\n\nAdemás, tengo habilidades avanzadas en el idioma inglés, ya que viví en Londres durante dos años hace una década. Esto me ha permitido colaborar eficazmente con equipos de habla inglesa y trabajar en proyectos internacionales.",
+    "job_position_text" : "DESARROLLADOR SENIOR DE SOFTWARE FLUTTER EN ACCENTURE",
+    "work_place_text": "Granada, España",
+    "work_experience_text" : "Experiencia laboral",
+
+    "accenture_work_header" : "Accenture - Desarrollador Senior de Software Flutter",
+    "accenture_work_place" : "Málaga",
+    "accenture_work_period" : "01/2023 - Presente",
+    "accenture_description_row_1" : "Desarrollé nuevas funciones para aplicaciones Flutter para mejorar su funcionalidad y experiencia de usuario.",
+    "accenture_description_row_2" : "Lideré un pequeño equipo de 4 desarrolladores, coordinando sus esfuerzos para garantizar la finalización oportuna de proyectos y la entrega exitosa a los clientes.",
+    "accenture_description_row_3" : "Revisé el código presentado por los miembros del equipo, brindando comentarios constructivos para mejorar la calidad y la mantenibilidad del código.",
+    "accenture_description_row_4" : "Escribí documentación para capturar los requisitos del proyecto, las decisiones de diseño y los detalles de implementación, asegurándome de que todos los interesados tuvieran acceso a información relevante y pudieran colaborar eficazmente en el proyecto.",
+
+    "blindside_work_header" : "Blindside - Desarrollador de software Flutter",
+    "blindside_work_place" : "Berlín",
+    "blindside_work_period" : "06/2022- 12/2022",
+    "blindside_description_row_1" : "Revisé, modularicé y actualicé bases de código antiguas a estándares modernos de desarrollo utilizando Riverpod como gestión de estado y arquitectura MVVP con patrón Repository y Hive como base de datos local.",
+    "blindside_description_row_2" : "Tomé conceptos iniciales y bocetos y desarrollé módulos de subproyectos completos siempre tratando de seguir las mejores prácticas de código.",
+    "blindside_description_row_3" : "Revisé el código, solucioné problemas y corregí errores.",
+    "blindside_description_row_4": "Documentó flujos de trabajo técnicos y conocimientos en un esquema privado para la formación de nuevos empleados contratados.",
+    "blindside_description_row_5": "Coordinó la creación y despliegue de nuevas actualizaciones y correcciones en Google Store y AppStoreConnect utilizando Bitbucket + Codemagic.",
+
+    "veleta_work_header": "Veleta Solutions - Desarrollador de software móvil",
+    "veleta_work_place": "Granada",
+    "veleta_work_period": "05/2019-06/2022",
+    "veleta_description_row_1": "Colaboré en etapas del ciclo de vida del desarrollo de sistemas desde la recopilación de requisitos hasta la liberación en producción.",
+    "veleta_description_row_2": "Lideré el desarrollo de varias aplicaciones para diferentes empresas en diferentes campos que van desde tiendas de aeropuerto, telecomunicaciones suizas o empresas de entrega.",
+    "veleta_description_row_3": "Utilicé APIs de terceros para facilitar el acceso fluido a datos externos en la nube de la aplicación.",
+    "veleta_description_row_4": "Diseñé y mantuve un código eficiente, reutilizable y confiable para su uso en entornos de nube distribuidos.",
+    "veleta_description_row_5": "Diseñé y mantuve un código eficiente, reutilizable y confiable para su uso en entornos de nube distribuidos.",
+    "veleta_description_row_6": "Creé aplicaciones móviles personalizadas utilizando tecnologías nativas e híbridas."
+}
