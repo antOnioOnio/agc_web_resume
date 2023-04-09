@@ -21,8 +21,6 @@ class MainHeaderProfileInfo extends StatelessWidget {
             ),
           ),
         ),
-
-        // Columna de información
         const SizedBox(width: 32),
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,

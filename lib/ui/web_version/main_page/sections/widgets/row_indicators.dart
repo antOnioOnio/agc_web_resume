@@ -1,5 +1,5 @@
+import 'package:agc_web_resume/core/constants/app_sections.dart';
 import 'package:agc_web_resume/core/constants/colors.dart';
-import 'package:agc_web_resume/core/constants/sections.dart';
 import 'package:flutter/material.dart';
 
 class RowIndicators extends StatelessWidget {
@@ -15,14 +15,14 @@ class RowIndicators extends StatelessWidget {
     return Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: List.generate(
-          sections.length,
+          AppSectionsExtension.getSections().length,
           (index) => GestureDetector(
             onTap: () => pageController.animateToPage(index,
                 duration: const Duration(milliseconds: 500),
                 curve: Curves.easeIn),
             child: _TextIndicator(
               selected: index == currentPageIndex,
-              text: sections[index],
+              text: AppSectionsExtension.getSections()[index].getLabel(context),
             ),
           ),
         ));

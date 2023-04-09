@@ -26,7 +26,7 @@ class WorkExperiencePeriod extends StatelessWidget {
       height: 350,
       child: Stack(
         children: [
-          RectangleImageWIdget(assetPath: iconPath),
+          RectangleImageWidget(assetPath: iconPath),
           const Positioned(
             left: 170,
             child: VerticalCustomDivider(

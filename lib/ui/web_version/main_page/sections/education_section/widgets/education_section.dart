@@ -27,7 +27,7 @@ class EducationPeriod extends StatelessWidget {
         padding: const EdgeInsets.only(left: 80.0),
         child: Stack(
           children: [
-            RectangleImageWIdget(width: 100, height: 100, assetPath: iconPath),
+            RectangleImageWidget(width: 100, height: 100, assetPath: iconPath),
             const Positioned(
               left: 130,
               child: VerticalCustomDivider(height: 100),

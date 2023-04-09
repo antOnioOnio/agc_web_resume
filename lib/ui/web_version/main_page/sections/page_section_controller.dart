@@ -1,5 +1,7 @@
+import 'package:agc_web_resume/core/constants/app_sections.dart';
 import 'package:agc_web_resume/ui/web_version/main_page/sections/education_section/education_sections.dart';
 import 'package:agc_web_resume/ui/web_version/main_page/sections/presentation_section/presentation_section.dart';
+import 'package:agc_web_resume/ui/web_version/main_page/sections/section_template.dart';
 import 'package:agc_web_resume/ui/web_version/main_page/sections/skill_section/skills_section.dart';
 import 'package:agc_web_resume/ui/web_version/main_page/sections/widgets/row_indicators.dart';
 import 'package:agc_web_resume/ui/web_version/main_page/sections/work_experience/work_experience_section.dart';
@@ -33,10 +35,22 @@ class _PageSectionControllerState extends State<PageSectionController> {
               });
             },
             children: const [
-              PresentationSection(),
-              WorkExperienceSection(),
-              SkillsSections(),
-              EducationSection(),
+              SectionTemplate(
+                section: AppSections.presentation(),
+                child: PresentationSection(),
+              ),
+              SectionTemplate(
+                section: AppSections.workExperience(),
+                child: WorkExperienceSection(),
+              ),
+              SectionTemplate(
+                section: AppSections.technicalSkills(),
+                child: SkillsSections(),
+              ),
+              SectionTemplate(
+                section: AppSections.education(),
+                child: EducationSection(),
+              ),
             ],
           ),
           Positioned(

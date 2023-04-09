@@ -17,7 +17,7 @@ class LanguageButtonWidget extends StatelessWidget {
     return GestureDetector(
       onTap: () => onTap(language),
       child: Opacity(
-        opacity: isSelected ? 1 : 0.4,
+        opacity: isSelected ? 1 : 0.2,
         child: Container(
           width: 35,
           height: 35,

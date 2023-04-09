@@ -1,12 +1,12 @@
 import 'package:agc_web_resume/core/constants/colors.dart';
 import 'package:flutter/material.dart';
 
-class RectangleImageWIdget extends StatelessWidget {
+class RectangleImageWidget extends StatelessWidget {
   final String assetPath;
   final double? height;
   final double? width;
 
-  const RectangleImageWIdget({Key? key, required this.assetPath, this.height, this.width})
+  const RectangleImageWidget({Key? key, required this.assetPath, this.height, this.width})
       : super(key: key);
 
   @override
